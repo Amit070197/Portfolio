@@ -1,0 +1,49 @@
+body{
+    /* background-color: red; */
+}
+
+@media only screen and (max-width: 1252px){
+
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        margin: 45px 5px;
+    }
+    
+    /* .text-container p{
+        font-size:calc(18px + 2vw)
+    } */
+
+    .image {
+        /* position: static; */
+        
+       width: 50vw; 
+       height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 772px){
+
+    #about-container{
+        flex-direction: column;
+        margin: 230px 5px;
+    }
+
+
+
+
+    .img{
+        margin: 10px 5px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 772px){
+
+    .about-text{
+        /* overflow-wrap: break-word; */
+        font-size: 1%;
+        width: 90vw;
+    }
+}

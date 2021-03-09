@@ -1,0 +1,98 @@
+h1{ 
+    color: blanchedalmond;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    right: 10%;
+    top: 20%;
+    flex-direction: column;
+}
+.container{
+
+    width: 35%;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 2%;
+    height: 50%;
+
+}
+
+.container h1
+{
+    color: rgb(3, 0, 0);
+}
+
+#backg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight:bold;
+    color:#191919;
+    line-height:10px;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align: center;
+}
+footer{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+    
+
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:6vw;
+    height:8vw;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#FFFFFF;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+.fa{
+
+    size:5vw
+}
+.social a:hover{
+    background-color:#aacddd;
+    transition:all ease 0.5s;
+}
+.social i{
+    font-size:20px;
+    color:#2B2B2B;
+}
+.ftr {
+    top: 3%;
+    left: -5%;
+}
+#hov:hover{
+    color: red;
+}
